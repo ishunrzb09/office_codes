@@ -25,4 +25,4 @@ if __name__ == '__main__':
             x = x+1
             p = Process(target=ping_fun, args=(list_ips,x))
             p.start()
-        print("completed")
+        print("completed1")
